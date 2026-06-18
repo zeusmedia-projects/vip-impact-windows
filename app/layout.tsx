@@ -4,6 +4,7 @@ import UtilityBar from "./components/UtilityBar";
 import SiteHeader from "./components/SiteHeader";
 import SiteFooter from "./components/SiteFooter";
 import StickyMobileActions from "./components/StickyMobileActions";
+import FloatingMessageButton from "./components/FloatingMessageButton";
 import { SITE_CONFIG } from "./lib/siteData";
 
 export const metadata: Metadata = {
@@ -57,6 +58,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main-content">{children}</main>
         <SiteFooter />
         <StickyMobileActions />
+        <FloatingMessageButton />
       </body>
     </html>
   );
