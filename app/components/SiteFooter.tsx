@@ -44,7 +44,7 @@ export default function SiteFooter() {
           <div className="lg:col-span-1">
             <div className="relative w-40 h-12 mb-6">
               <Image 
-                src="/images/logo-long.png" 
+                src="/images/LOGO-long.png" 
                 alt="VIP Impact Windows & Doors Logo" 
                 fill 
                 className="object-contain object-left"
