@@ -167,4 +167,10 @@ The following items are marked with `// TODO:` in the source files:
 
 ---
 
+## PRE-LAUNCH CLEANUP & FEATURE REMOVALS
+
+- [ ] **[REQUIRED]** Remove the interactive AI chatbot widget (`FloatingMessageButton.tsx` and the `/api/chat` route) before publishing to the client's live production domain, as it was requested for the demo phase only.
+
+---
+
 *Last updated: Website initial build — pending client review.*
