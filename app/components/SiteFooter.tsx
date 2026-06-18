@@ -80,7 +80,7 @@ export default function SiteFooter() {
 
           {/* Services */}
           <div>
-            <h3 className="text-xs font-semibold tracking-widest uppercase text-white/40 mb-5">
+            <h3 className="text-xs font-semibold tracking-widest uppercase text-[#F9F6F0] mb-5">
               Services
             </h3>
             <ul className="flex flex-col gap-2.5">
@@ -99,7 +99,7 @@ export default function SiteFooter() {
 
           {/* Company */}
           <div>
-            <h3 className="text-xs font-semibold tracking-widest uppercase text-white/40 mb-5">
+            <h3 className="text-xs font-semibold tracking-widest uppercase text-[#F9F6F0] mb-5">
               Company
             </h3>
             <ul className="flex flex-col gap-2.5">
@@ -118,7 +118,7 @@ export default function SiteFooter() {
 
           {/* Service Areas */}
           <div>
-            <h3 className="text-xs font-semibold tracking-widest uppercase text-white/40 mb-5">
+            <h3 className="text-xs font-semibold tracking-widest uppercase text-[#F9F6F0] mb-5">
               Service Areas
             </h3>
             <ul className="flex flex-col gap-2.5">
