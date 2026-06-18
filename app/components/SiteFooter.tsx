@@ -42,22 +42,16 @@ export default function SiteFooter() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8">
           {/* Brand column */}
           <div className="lg:col-span-2 lg:pr-8">
-            <div 
-              className="relative w-40 h-12 mb-6"
-              aria-label="VIP Impact Windows & Doors Logo"
-              role="img"
-              style={{
-                backgroundColor: "#F9F6F0",
-                WebkitMaskImage: "url(/images/logo-long.png)",
-                WebkitMaskSize: "contain",
-                WebkitMaskRepeat: "no-repeat",
-                WebkitMaskPosition: "left center",
-                maskImage: "url(/images/logo-long.png)",
-                maskSize: "contain",
-                maskRepeat: "no-repeat",
-                maskPosition: "left center"
-              }}
-            />
+            <div className="relative w-40 h-12 mb-6">
+              <Image
+                src="/images/logo-long.png"
+                alt="VIP Impact Windows & Doors Logo"
+                fill
+                sizes="160px"
+                className="object-contain object-left"
+                priority
+              />
+            </div>
             <p className="text-white/60 text-sm leading-relaxed mb-6">
               Quality impact windows and doors with personal guidance and competitive pricing for South Florida homes and businesses.
             </p>
@@ -88,7 +82,7 @@ export default function SiteFooter() {
 
           {/* Services */}
           <div>
-            <h3 className="text-xs font-semibold tracking-widest uppercase text-[#F9F6F0] mb-5">
+            <h3 className="text-[15px] font-semibold tracking-widest uppercase text-[var(--aqua)] mb-5">
               Services
             </h3>
             <ul className="flex flex-col gap-2.5">
@@ -107,7 +101,7 @@ export default function SiteFooter() {
 
           {/* Company */}
           <div>
-            <h3 className="text-xs font-semibold tracking-widest uppercase text-[#F9F6F0] mb-5">
+            <h3 className="text-[15px] font-semibold tracking-widest uppercase text-[var(--aqua)] mb-5">
               Company
             </h3>
             <ul className="flex flex-col gap-2.5">
@@ -126,7 +120,7 @@ export default function SiteFooter() {
 
           {/* Service Areas */}
           <div>
-            <h3 className="text-xs font-semibold tracking-widest uppercase text-[#F9F6F0] mb-5">
+            <h3 className="text-[15px] font-semibold tracking-widest uppercase text-[var(--aqua)] mb-5">
               Service Areas
             </h3>
             <ul className="flex flex-col gap-2.5">
