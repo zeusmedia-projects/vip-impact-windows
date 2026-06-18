@@ -196,7 +196,7 @@ export default function HomePage() {
                     aria-hidden="true"
                   />
                   <div className="relative p-5 z-10">
-                    <span className="badge-aqua shadow-sm">{svc.title}</span>
+                    <span className="badge-white shadow-sm">{svc.title}</span>
                   </div>
                 </div>
                 <div className="p-5">
