@@ -38,7 +38,7 @@ export default function SiteHeader() {
         <Link href="/" className="flex items-center gap-3 flex-shrink-0 hover-lift">
           <div className="relative w-40 h-12">
             <Image 
-              src="/images/LOGO-long.png" 
+              src="/images/logo-long.png" 
               alt="VIP Impact Windows & Doors Logo" 
               fill 
               className="object-contain object-left"

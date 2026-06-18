@@ -48,11 +48,11 @@ export default function SiteFooter() {
               role="img"
               style={{
                 backgroundColor: "#F9F6F0",
-                WebkitMaskImage: "url(/images/LOGO-long.png)",
+                WebkitMaskImage: "url(/images/logo-long.png)",
                 WebkitMaskSize: "contain",
                 WebkitMaskRepeat: "no-repeat",
                 WebkitMaskPosition: "left center",
-                maskImage: "url(/images/LOGO-long.png)",
+                maskImage: "url(/images/logo-long.png)",
                 maskSize: "contain",
                 maskRepeat: "no-repeat",
                 maskPosition: "left center"
