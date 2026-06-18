@@ -39,15 +39,15 @@ export default function SiteFooter() {
     <footer style={{ backgroundColor: "var(--charcoal)" }} className="text-white">
       {/* Main footer */}
       <div className="container-wide py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8">
           {/* Brand column */}
-          <div className="lg:col-span-1">
+          <div className="lg:col-span-2 lg:pr-8">
             <div className="relative w-40 h-12 mb-6">
               <Image 
                 src="/images/LOGO-long.png" 
                 alt="VIP Impact Windows & Doors Logo" 
                 fill 
-                className="object-contain object-left"
+                className="object-contain object-left brightness-0 invert opacity-90"
               />
             </div>
             <p className="text-white/60 text-sm leading-relaxed mb-6">
