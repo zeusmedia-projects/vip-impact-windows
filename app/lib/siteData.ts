@@ -24,7 +24,7 @@ export const SITE_CONFIG = {
 };
 
 export const OWNER_INFO = {
-  name: "Michael Harrison",
+  name: "Mark Rosengarten",
   title: "Founder & Owner",
   bio: "After spending 15 years in the South Florida construction industry, I founded VIP Impact Windows & Doors because I saw too many homeowners being treated like numbers on a spreadsheet. I believe a major home improvement should feel personal. When you work with us, you're getting an honest conversation, clear expectations, and someone who stays involved from the first consultation to the final walkthrough.",
   image: "/images/owner.png",
