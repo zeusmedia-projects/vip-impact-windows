@@ -47,7 +47,7 @@ export default function SiteFooter() {
               aria-label="VIP Impact Windows & Doors Logo"
               role="img"
               style={{
-                backgroundColor: "#F9F6F0",
+                backgroundColor: "var(--sand)",
                 WebkitMaskImage: "url(/images/logo-long.png)",
                 WebkitMaskSize: "contain",
                 WebkitMaskRepeat: "no-repeat",
