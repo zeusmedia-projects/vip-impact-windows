@@ -427,23 +427,15 @@ export default function HomePage() {
                 View All Service Areas
               </Link>
             </div>
-            {/* Map placeholder */}
-            <div
-              className="rounded-xl aspect-square md:aspect-[4/3] flex items-center justify-center"
-              style={{ backgroundColor: "var(--sand)" }}
-              aria-label="South Florida service area map — showing Miami-Dade, Broward, and select Palm Beach County"
-            >
-              <div className="text-center p-8">
-                <svg className="w-12 h-12 mx-auto mb-3" style={{ color: "var(--champagne)" }} fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM15 19l-6-2.11V5l6 2.11V19z" />
-                </svg>
-                <p className="font-semibold text-sm mb-1" style={{ color: "var(--navy)" }}>
-                  South Florida Service Map
-                </p>
-                <p className="text-xs" style={{ color: "var(--text-light)" }}>
-                  Miami-Dade · Broward<br />Select Palm Beach County
-                </p>
-              </div>
+            {/* Service Area Map */}
+            <div className="relative rounded-xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.06)] aspect-square md:aspect-[4/3]">
+              <Image 
+                src="/images/service-map.png"
+                alt="South Florida service area map — showing VIP Impact Windows locations in Miami-Dade, Broward, and Palm Beach County"
+                fill
+                className="object-cover object-center"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
             </div>
           </div>
         </div>
