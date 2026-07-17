@@ -36,7 +36,7 @@ export default function SiteHeader() {
       <div className="container-wide flex items-center justify-between h-16 md:h-18">
         {/* Logo & Return to Zeus Button Wrapper */}
         <div className="flex items-center gap-3 flex-shrink-0">
-          {/* Return to Zeus Button */}
+          {/* Return to Zeus Button (Temporarily commented out for screenshots)
           <a href="https://www.zeusmediateam.com" className="zeus-back-button">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <line x1="19" y1="12" x2="5" y2="12"></line>
@@ -44,6 +44,7 @@ export default function SiteHeader() {
             </svg>
             <span>Zeus Media</span>
           </a>
+          */}
 
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 hover-lift">
