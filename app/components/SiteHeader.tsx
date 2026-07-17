@@ -34,18 +34,31 @@ export default function SiteHeader() {
       }`}
     >
       <div className="container-wide flex items-center justify-between h-16 md:h-18">
-        {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 flex-shrink-0 hover-lift">
-          <div className="relative w-40 h-12">
-            <Image 
-              src="/images/logo-long.png" 
-              alt="VIP Impact Windows & Doors Logo" 
-              fill 
-              className="object-contain object-left"
-              priority
-            />
-          </div>
-        </Link>
+        {/* Logo & Return to Zeus Button Wrapper */}
+        <div className="flex items-center gap-3 flex-shrink-0">
+          {/* Return to Zeus Button */}
+          <a href="https://www.zeusmediateam.com" className="zeus-back-button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="19" y1="12" x2="5" y2="12"></line>
+              <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+            <span>Zeus Media</span>
+          </a>
+
+          {/* Logo */}
+          <Link href="/" className="flex items-center gap-3 hover-lift">
+            <div className="relative w-40 h-12">
+              <Image 
+                src="/images/logo-long.png" 
+                alt="VIP Impact Windows & Doors Logo" 
+                fill 
+                className="object-contain object-left"
+                priority
+              />
+            </div>
+          </Link>
+        </div>
+
 
         {/* Desktop Nav */}
         <nav className="hidden lg:flex items-center gap-6" aria-label="Main navigation">
